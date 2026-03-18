@@ -42,7 +42,8 @@ Dev Tools: Python virtual environment
     source myenv/bin/activate
    
     export MYSQL_PASSWORD=your_mysql_password
-python app.py
+   
+    python app.py
 
     Backend runs at: http://127.0.0.1:5000
 
