@@ -23,21 +23,30 @@ Dev Tools: Python virtual environment
 # Setup Instructions
 
 1. Create Database
-sudo mysql -u root -p
-CREATE DATABASE slot_booking;
-source database.sql;
-2. Setup Backend
-python -m venv myenv
-source myenv/bin/activate
-pip install flask flask-cors mysql-connector-python
-3. Run Backend
-source myenv/bin/activate
-export MYSQL_PASSWORD=your_mysql_password
+   
+    sudo mysql -u root -p
+   
+    CREATE DATABASE slot_booking;
+    source database.sql;
+   
+3. Setup Backend
+   
+    python -m venv myenv
+   
+    source myenv/bin/activate
+   
+    pip install flask flask-cors mysql-connector-python
+   
+5. Run Backend
+   
+    source myenv/bin/activate
+   
+    export MYSQL_PASSWORD=your_mysql_password
 python app.py
 
     Backend runs at: http://127.0.0.1:5000
 
-4. Run Frontend
+7. Run Frontend
 
    Local:   http://localhost:8080/
    
