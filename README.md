@@ -21,15 +21,8 @@ Frontend: HTML, CSS, JavaScript
 Dev Tools: Python virtual environment
 
 # Setup Instructions
-
-1. Create Database
    
-    sudo mysql -u root -p
-   
-    CREATE DATABASE slot_booking;
-    source database.sql;
-   
-3. Setup Backend
+1. Setup Backend
    
     python -m venv myenv
    
@@ -37,7 +30,7 @@ Dev Tools: Python virtual environment
    
     pip install flask flask-cors mysql-connector-python
    
-5. Run Backend
+2. Run Backend
    
     source myenv/bin/activate
    
@@ -47,11 +40,13 @@ Dev Tools: Python virtual environment
 
     Backend runs at: http://127.0.0.1:5000
 
-7. Run Frontend
+3. Run Frontend
 
    Local:   http://localhost:8080/
    
    Network: http://192.168.68.175:8080/
+4. Firebase
+   The app uses Firebase Firestore as a live database. All slot bookings and cancellations are updated in real-time, so the data is always current and visible to all users immediately.
 
 # API Endpoints
 
