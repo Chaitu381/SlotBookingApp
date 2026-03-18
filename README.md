@@ -80,3 +80,4 @@ Send email confirmations for bookings
 Let admin add/remove slots
 
 Better UI design# SlotBookingApp
+# SlotBookingApp
