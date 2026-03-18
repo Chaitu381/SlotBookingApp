@@ -1,12 +1,10 @@
-Slot Booking App
------------------
+# Slot Booking App
+
 A simple web app to view, book, and cancel time slots. Backend is in Flask + MySQL, frontend is plain HTML, CSS, and JavaScript.
 
-Webpage: https://slotbookingappjq.vercel.app/
--------
+# Webpage: https://slotbookingappjq.vercel.app/
 
-Features
---------
+# Features
 
 * See available time slots
 
@@ -22,8 +20,7 @@ Backend: Flask (Python), MySQL, Flask-CORS
 Frontend: HTML, CSS, JavaScript
 Dev Tools: Python virtual environment
 
-Setup Instructions
-------------------
+# Setup Instructions
 
 1. Create Database
 sudo mysql -u root -p
@@ -43,8 +40,8 @@ Backend runs at: http://127.0.0.1:5000
 6. Run Frontend
 Open index.html in your browser
 
-API Endpoints
--------------
+# API Endpoints
+
 GET /slots → Get all slots
 
 POST /book → Book a slot, body: {"id": 1}
@@ -82,4 +79,3 @@ Send email confirmations for bookings
 Let admin add/remove slots
 
 Better UI design# SlotBookingApp
-# SlotBookingApp
