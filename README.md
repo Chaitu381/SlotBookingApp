@@ -42,8 +42,6 @@ python app.py
    Local:   http://localhost:8080/
    
    Network: http://192.168.68.175:8080/
-   
-Open index.html in your browser
 
 # API Endpoints
 
