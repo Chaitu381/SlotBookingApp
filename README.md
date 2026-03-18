@@ -37,7 +37,9 @@ python app.py
 
 Backend runs at: http://127.0.0.1:5000
 
-6. Run Frontend
+4. Run Frontend
+    Local:   http://localhost:8080/
+    Network: http://192.168.68.175:8080/
 Open index.html in your browser
 
 # API Endpoints
