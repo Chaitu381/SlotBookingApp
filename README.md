@@ -50,8 +50,8 @@ POST /cancel → Cancel a slot, body: {"id": 1}
 
 GET /health → Check if backend is running
 
-How It Works
-------------
+# How It Works
+
 Slots are stored in the database
 
 Booking a slot updates the database
@@ -60,8 +60,8 @@ Cancelling makes the slot available again
 
 Frontend fetches data from backend using JavaScript (AJAX/fetch)
 
-Assumptions
------------
+# Assumptions
+
 No login system
 
 7 slots per day (9 AM - 4 PM)
@@ -70,8 +70,8 @@ Only 3 days of slots visible (today + next 2 days)
 
 One user per slot
 
-Possible Improvements
----------------------
+# Possible Improvements
+
 Add user login and authentication
 
 Send email confirmations for bookings
